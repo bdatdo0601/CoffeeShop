@@ -13,7 +13,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #f05f40;
+  border-color: #996633;
   border-width: 3px;
   max-width: 50px;
 }
@@ -24,7 +24,7 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #f05f40;
+  color: #996633;
 }
 a:hover,
 a:focus {
@@ -44,7 +44,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #f05f40;
+  background-color: #996633;
 }
 .bg-dark {
   background-color: #222222;
@@ -73,7 +73,7 @@ aside {
 }
 .navbar-default .navbar-header .navbar-brand {
   margin: 0 auto !important ; 
-  color: #f05f40;
+  color: #996633;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -93,11 +93,11 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #f05f40;
+  color: #996633;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #f05f40 !important;
+  color: #996633 !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -108,10 +108,10 @@ aside {
   .navbar-default {
 
     background-color: transparent;
-    border-color: rgba(255, 255, 255, 0.3);
+    border-color: rgba(89, 89, 89, 0.3);
   }
   .navbar-default .navbar-header .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(89, 89, 89, 0.7);
   }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
@@ -130,7 +130,7 @@ aside {
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #f05f40;
+    color: #996633;
     font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -143,7 +143,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #f05f40;
+    color: #996633;
   }
 }
 header {
@@ -229,7 +229,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(153, 102, 51, 0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -277,7 +277,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #f05f40;
+  color: #996633;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -285,7 +285,7 @@ header .header-content .header-content-inner p {
 }
 .btn-default {
   color: #222222;
-  background-color: #ffffff;
+  background-color: #595959;
   border-color: #ffffff;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -298,7 +298,7 @@ header .header-content .header-content-inner p {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   color: #222222;
-  background-color: #f2f2f2;
+  background-color: #595959;
   border-color: #ededed;
 }
 .btn-default:active,
@@ -333,8 +333,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #f05f40;
-  border-color: #f05f40;
+  background-color: #996633;
+  border-color: #996633;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -346,7 +346,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #ee4b28;
+  background-color: #bf8040;
   border-color: #ed431f;
 }
 .btn-primary:active,
@@ -372,11 +372,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #f05f40;
-  border-color: #f05f40;
+  background-color: #996633;
+  border-color: #996633;
 }
 .btn-primary .badge {
-  color: #f05f40;
+  color: #996633;
   background-color: #ffffff;
 }
 .btn {
@@ -410,6 +410,6 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
-.navbar-nav{
-
+#googleMap{
+  margin-bottom: 30px ;
 }
